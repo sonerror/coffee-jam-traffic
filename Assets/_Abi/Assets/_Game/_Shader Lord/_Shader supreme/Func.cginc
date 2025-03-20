@@ -1,4 +1,0 @@
-﻿float SpriteOutline(float thickness){
-
-
-}
