@@ -1,0 +1,331 @@
+{
+"skeleton": {
+	"hash": "3BQA5cVfYD8",
+	"spine": "4.0.64",
+	"x": -95.74,
+	"y": -100,
+	"width": 189,
+	"height": 196,
+	"images": "./images/",
+	"audio": "D:/TrafficJam/HomeIcon"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Spin", "parent": "root" },
+	{ "name": "Rotate", "parent": "Spin", "x": -1.24, "y": 0.5, "color": "ff69e1ff" },
+	{
+		"name": "spin",
+		"parent": "Spin",
+		"length": 32.46,
+		"rotation": -88.73,
+		"x": -1.74,
+		"y": 69.93,
+		"color": "ff08d8ff"
+	},
+	{ "name": "Lights", "parent": "Spin" },
+	{ "name": "Light1", "parent": "Lights", "x": 42.39, "y": 55.14, "color": "9f34ffff" },
+	{ "name": "Light2", "parent": "Lights", "x": 64.2, "y": 20.07, "color": "9f34ffff" },
+	{ "name": "Light3", "parent": "Lights", "x": 64.52, "y": -12.96, "color": "9f34ffff" },
+	{ "name": "Light4", "parent": "Lights", "x": 48.44, "y": -43.21, "color": "9f34ffff" },
+	{ "name": "Light5", "parent": "Lights", "x": 16.51, "y": -62.03, "color": "9f34ffff" },
+	{ "name": "Light6", "parent": "Lights", "x": -16.91, "y": -62.88, "color": "9f34ffff" },
+	{ "name": "Light7", "parent": "Lights", "x": -48.42, "y": -45.96, "color": "9f34ffff" },
+	{ "name": "Light8", "parent": "Lights", "x": -66.82, "y": -15.92, "color": "9f34ffff" },
+	{ "name": "Light9", "parent": "Lights", "x": -67.88, "y": 17.71, "color": "9f34ffff" },
+	{ "name": "Light10", "parent": "Lights", "x": -50.96, "y": 47.53, "color": "9f34ffff" },
+	{ "name": "Light11", "parent": "Lights", "x": -18.18, "y": 66.35, "color": "9f34ffff" }
+],
+"slots": [
+	{ "name": "wheel 1", "bone": "Spin", "attachment": "Spin/wheel 1" },
+	{ "name": "wheel", "bone": "Rotate", "attachment": "Spin/wheel" },
+	{ "name": "center", "bone": "Spin", "attachment": "Spin/center" },
+	{ "name": "Light1", "bone": "Light1", "attachment": "Spin/off" },
+	{ "name": "Light2", "bone": "Light2", "attachment": "Spin/off" },
+	{ "name": "Light3", "bone": "Light3", "attachment": "Spin/off" },
+	{ "name": "Light4", "bone": "Light4", "attachment": "Spin/off" },
+	{ "name": "Light5", "bone": "Light5", "attachment": "Spin/off" },
+	{ "name": "Light6", "bone": "Light6", "attachment": "Spin/off" },
+	{ "name": "Light7", "bone": "Light7", "attachment": "Spin/off" },
+	{ "name": "Light8", "bone": "Light8", "attachment": "Spin/off" },
+	{ "name": "Light9", "bone": "Light9", "attachment": "Spin/off" },
+	{ "name": "Light10", "bone": "Light10", "attachment": "Spin/off" },
+	{ "name": "Light11", "bone": "Light11", "attachment": "Spin/off" },
+	{ "name": "on", "bone": "Spin" },
+	{ "name": "spin", "bone": "spin", "attachment": "Spin/spin" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"center": {
+				"Spin/center": { "x": -0.74, "width": 38, "height": 38 }
+			},
+			"Light1": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light2": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light3": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light4": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light5": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light6": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light7": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light8": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light9": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light10": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"Light11": {
+				"Spin/off": { "x": 4.38, "y": 1.86, "width": 19, "height": 16 },
+				"Spin/on": { "x": 6.38, "y": 1.86, "width": 27, "height": 28 }
+			},
+			"spin": {
+				"Spin/spin": { "x": 10.45, "y": 0.27, "rotation": 88.73, "width": 43, "height": 61 }
+			},
+			"wheel": {
+				"Spin/wheel": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 57.5, -57.5, -57.5, -57.5, -57.5, 57.5, 57.5, 57.5 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 115,
+					"height": 115
+				}
+			},
+			"wheel 1": {
+				"Spin/wheel 1": { "x": -1.24, "y": -2, "width": 189, "height": 196 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"Light1": {
+				"attachment": [
+					{ "time": 0.0667, "name": "Spin/on" },
+					{ "time": 0.1333, "name": "Spin/off" },
+					{ "time": 1.9, "name": "Spin/on" },
+					{ "time": 1.9667, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light2": {
+				"attachment": [
+					{ "time": 0.2333, "name": "Spin/on" },
+					{ "time": 0.3, "name": "Spin/off" },
+					{ "time": 2.0667, "name": "Spin/on" },
+					{ "time": 2.1333, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light3": {
+				"attachment": [
+					{ "time": 0.4, "name": "Spin/on" },
+					{ "time": 0.4667, "name": "Spin/off" },
+					{ "time": 2.2333, "name": "Spin/on" },
+					{ "time": 2.3, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light4": {
+				"attachment": [
+					{ "time": 0.5667, "name": "Spin/on" },
+					{ "time": 0.6333, "name": "Spin/off" },
+					{ "time": 2.4, "name": "Spin/on" },
+					{ "time": 2.4667, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light5": {
+				"attachment": [
+					{ "time": 0.7333, "name": "Spin/on" },
+					{ "time": 0.8, "name": "Spin/off" },
+					{ "time": 2.5667, "name": "Spin/on" },
+					{ "time": 2.6333, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light6": {
+				"attachment": [
+					{ "time": 0.9, "name": "Spin/on" },
+					{ "time": 0.9667, "name": "Spin/off" },
+					{ "time": 2.7333, "name": "Spin/on" },
+					{ "time": 2.8, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light7": {
+				"attachment": [
+					{ "time": 1.0667, "name": "Spin/on" },
+					{ "time": 1.1333, "name": "Spin/off" },
+					{ "time": 2.9, "name": "Spin/on" },
+					{ "time": 2.9667, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light8": {
+				"attachment": [
+					{ "time": 1.2333, "name": "Spin/on" },
+					{ "time": 1.3, "name": "Spin/off" },
+					{ "time": 3.0667, "name": "Spin/on" },
+					{ "time": 3.1333, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light9": {
+				"attachment": [
+					{ "time": 1.4, "name": "Spin/on" },
+					{ "time": 1.4667, "name": "Spin/off" },
+					{ "time": 3.2333, "name": "Spin/on" },
+					{ "time": 3.3, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light10": {
+				"attachment": [
+					{ "time": 1.5667, "name": "Spin/on" },
+					{ "time": 1.6333, "name": "Spin/off" },
+					{ "time": 3.4, "name": "Spin/on" },
+					{ "time": 3.4667, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" }
+				]
+			},
+			"Light11": {
+				"attachment": [
+					{ "time": 1.7333, "name": "Spin/on" },
+					{ "time": 1.8, "name": "Spin/off" },
+					{ "time": 3.5667, "name": "Spin/on" },
+					{ "time": 3.6333, "name": "Spin/off" },
+					{ "time": 4.0667, "name": "Spin/on" },
+					{ "time": 4.3333, "name": "Spin/off" },
+					{ "time": 4.5667, "name": "Spin/on" },
+					{ "time": 4.8333, "name": "Spin/off" },
+					{ "time": 5.0667, "name": "Spin/on" },
+					{ "time": 5.3333, "name": "Spin/off" },
+					{ "time": 5.5, "name": "Spin/off" }
+				]
+			}
+		},
+		"bones": {
+			"Rotate": {
+				"rotate": [
+					{
+						"curve": [ 1.333, 0, 2.667, -732.84 ]
+					},
+					{
+						"time": 4,
+						"value": -732.84,
+						"curve": [ 4.222, -732.84, 4.5, -720 ]
+					},
+					{ "time": 4.6667, "value": -720 }
+				]
+			},
+			"spin": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "value": 5.94 },
+					{ "time": 0.5, "value": -4.11 },
+					{ "time": 0.6667, "value": 5.94 },
+					{ "time": 0.8333, "value": -4.11 },
+					{ "time": 1, "value": 5.94 },
+					{ "time": 1.1667, "value": -4.11 },
+					{ "time": 1.3333, "value": 5.94 },
+					{ "time": 1.5, "value": -4.11 },
+					{ "time": 1.6667, "value": 5.94 },
+					{ "time": 1.8333, "value": -4.11 },
+					{ "time": 2, "value": 5.94 },
+					{ "time": 2.1667, "value": -4.11 },
+					{ "time": 2.3333, "value": 5.94 },
+					{ "time": 2.5, "value": -4.11 },
+					{ "time": 2.6667, "value": 5.94 },
+					{ "time": 2.8333, "value": -4.11 },
+					{ "time": 3, "value": 5.94 },
+					{ "time": 3.1667, "value": -4.11 },
+					{ "time": 3.3333, "value": 5.94 },
+					{ "time": 3.5, "value": -4.11 },
+					{ "time": 3.6667, "value": 5.94 },
+					{ "time": 4 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,41 @@
+{ "skeleton": { "images": "D:/TrafficJam/HomeIcon/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" },
+	{ "name": "X2", "parent": "root", "x": -4.5, "y": 57 }
+],
+"slots": [
+	{ "name": "ellipse2", "bone": "X2", "attachment": "X2/ellipse2" },
+	{ "name": "glow2", "bone": "X2", "attachment": "X2/glow2" },
+	{ "name": "Body", "bone": "X2", "attachment": "X2/Body" },
+	{ "name": "wingback", "bone": "X2", "attachment": "X2/Duoi1" },
+	{ "name": "wingfront", "bone": "X2", "attachment": "X2/wing1" },
+	{ "name": "wingTop", "bone": "X2", "attachment": "X2/wingTop" }
+],
+"skins": {
+	"default": {
+		"ellipse2": {
+			"X2/ellipse2": { "x": 2.5, "y": -57, "width": 148, "height": 148 }
+		},
+		"glow2": {
+			"X2/glow2": { "x": 1.5, "y": -48.5, "width": 150, "height": 159 }
+		},
+		"Body": {
+			"X2/Body": { "x": -5, "y": -43.5, "width": 107, "height": 91 }
+		},
+		"wingback": {
+			"X2/Duoi2": { "x": -54.5, "y": -18.5, "width": 28, "height": 33 },
+			"X2/Duoi1": { "x": -55.5, "y": -21, "width": 22, "height": 30 }
+		},
+		"wingfront": {
+			"X2/wing3": { "x": -0.5, "y": -6, "width": 92, "height": 44 },
+			"X2/wing2": { "x": -2, "y": -4.5, "width": 93, "height": 33 },
+			"X2/wing1": { "x": -2.5, "y": -5, "width": 80, "height": 36 }
+		},
+		"wingTop": {
+			"X2/wingTop": { "x": 0, "y": 0, "width": 7, "height": 6 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

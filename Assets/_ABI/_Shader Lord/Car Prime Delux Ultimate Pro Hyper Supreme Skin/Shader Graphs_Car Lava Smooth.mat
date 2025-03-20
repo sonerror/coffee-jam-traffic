@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Car Lava Smooth
+  m_Shader: {fileID: -6465566751694194690, guid: 6b96566385354ae47862fa4f8f7d276e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _mask_bubble:
+        m_Texture: {fileID: 2800000, guid: 0b968de597eff9245a3abec71614db9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _base_tiling: 2.56
+    - _border_strength: 7.47
+    - _bubble_color_depth: 14.76
+    - _bubble_noise_edge: 0.36
+    - _bubble_noise_scale: 3.37
+    - _bubble_noise_smooth: 0.24
+    - _color_bubble_strength: 1.16
+    - _line_thickness: 0.024
+    - _noise_bound: 0.33
+    - _noise_change_speed: 1.4
+    - _noise_offset: 0.16
+    - _noise_pow: 2.61
+    - _noise_scale: 0.87
+    - _offset_from_bubble: 3.56
+    - _smooth: 0.17
+    - _sub_noise_strenght: 0.39
+    - _subnoise_scale: 20.63
+    - _tiling: 5
+    - _uv_curve: 0.18
+    - _uv_dead_end: 0.51
+    - _uv_offset: 0.78
+    m_Colors:
+    - _Color: {r: 0.93333334, g: 0.49411765, b: 0.10980392, a: 0}
+    - _Color_2: {r: 0.6117647, g: 0.09019608, b: 1, a: 0}
+    - _bubble_move_Dir: {r: 0, g: 0.32, b: 0, a: 0}
+    - _bubble_noise_dir: {r: 0, g: 1.24, b: 0, a: 0}
+    - _sUBCOLOR: {r: 0.8666667, g: 0.18431373, b: 0.05490196, a: 0}
+    - _sub_direction: {r: 0, g: -0.84, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6934824680465633708
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-492209747737026389
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Cloud Test
+  m_Shader: {fileID: -6465566751694194690, guid: a4287da290f9dfa4eac577620964bd4a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_360e24b8340f473dbb0fca4b1d66d683: 0.6
+    - Vector1_8f756580ebf848e2a7694fde4017cf77: 4.8
+    - Vector1_ae6e2dc9217442fa97effa498175fd81: 0.803
+    - Vector1_ae7c2d1d87e0465f901e813975c118b5: 0.73
+    - Vector1_d5b460ff6f5349189805c466c4850bc6: 1
+    - Vector1_d929ebec07064703b6a7bd7cd3992e3e: 0.09
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_29134e3651e84f11a71c0f5acac31a77: {r: 0.72156864, g: 0.9293262, b: 1, a: 1}
+    - Vector2_3df798bbd91b49f7a75794d41df2b7a0: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_93e69f667f6c4996a4cfd368a11f2d48: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

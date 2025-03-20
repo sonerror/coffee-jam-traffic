@@ -1,0 +1,29 @@
+{ "skeleton": { "images": "D:/TrafficJam/Chest/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "FxCHest2/1" },
+	{ "name": "2", "bone": "root", "attachment": "FxCHest2/2" },
+	{ "name": "3", "bone": "root", "attachment": "FxCHest2/3" },
+	{ "name": "4", "bone": "root", "attachment": "FxCHest2/4" }
+],
+"skins": {
+	"default": {
+		"1": {
+			"FxCHest2/1": { "x": 722, "y": -990, "width": 132, "height": 434 }
+		},
+		"2": {
+			"FxCHest2/2": { "x": 635, "y": -990, "width": 192, "height": 434 }
+		},
+		"3": {
+			"FxCHest2/3": { "x": 498.5, "y": -995.5, "width": 231, "height": 371 }
+		},
+		"4": {
+			"FxCHest2/4": { "x": 381.5, "y": -986, "width": 167, "height": 418 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
