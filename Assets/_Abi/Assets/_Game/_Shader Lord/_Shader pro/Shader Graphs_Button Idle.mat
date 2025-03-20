@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Button Idle
+  m_Shader: {fileID: 4800000, guid: 0f8db1200bb309a4eb937dd53c2d06dd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_0ae3ff0bb764425ca85d0ce1932ffd5e:
+        m_Texture: {fileID: 2800000, guid: 016359104d8b1bd4281e212be6654a2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_86d4ef24c2d34bd385f9e41d2bb12702:
+        m_Texture: {fileID: 2800000, guid: 9541ac8b33bfbc14e8e20502d1c80059, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_f817e98ebd4c44f88f8fe8d049e15743:
+        m_Texture: {fileID: 2800000, guid: 70e08e2f8e9506a4aaf1c9d628a51159, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2713f090f3064018affc5274030ff792: 2.07
+    - Vector1_58a6d70653af4b9cbad4a13be22195ba: 0.18
+    - Vector1_5918ca520b11405bb4de940a39ec4b0a: 0.68
+    - Vector1_8c2a51773b5c4d879c17e7cc628951af: 0.52
+    - Vector1_ca470111a100494b95feebccb7eff930: -1
+    - Vector1_d158349fd5b341cc92404b987953e8a2: 0.16
+    - Vector1_dde646ad75374a2e95f7641dfcd7529c: 0.042
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - Color_173e509dd48c42b884076fa2ddca203f: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

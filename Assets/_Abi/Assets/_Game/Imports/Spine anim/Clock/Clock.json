@@ -1,0 +1,21 @@
+{ "skeleton": { "images": "D:/Wood_3/Clock/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Clock1", "bone": "root", "attachment": "Clock/Clock1" },
+	{ "name": "Clock2", "bone": "root", "attachment": "Clock/Clock2" }
+],
+"skins": {
+	"default": {
+		"Clock1": {
+			"Clock/Clock1": { "x": 1.5, "y": -4, "width": 61, "height": 66 }
+		},
+		"Clock2": {
+			"Clock/Clock2": { "x": 0.5, "y": 5.5, "width": 7, "height": 19 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

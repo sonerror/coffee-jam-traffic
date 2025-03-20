@@ -1,0 +1,18 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+Texture2D<float4> _MainTexCheck;
+RWBuffer<float> PixCount;
+
+uint size = (uint)8;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID, uint index : SV_GroupIndex)
+{
+    PixCount[index] =PixCount[index] + _MainTexCheck[id.xy].r;//  _MainTexCheck[id.xy].r;
+    // _MainTexCheck[id.xy] = float4((float)index/64,0,0,1);
+    // _MainTexCheck[id.xy] = float4((float)id.x/512,0,0,1);
+     // _MainTex[id.xy] = float4(_MainTex[id.xy].r,_MainTex[id.xy].g,_MainTex[id.xy].b,1-_MainTex[id.xy].a);
+    // _MainTex[id.xy] =  float4(id.x & id.y, (id.x & 15)/15.0, (id.y & 15)/15.0, 0.0);
+}
+/**/

@@ -1,0 +1,311 @@
+{
+"skeleton": {
+	"hash": "yLvwC+UVqG8",
+	"spine": "4.0.64",
+	"x": -81,
+	"y": -87,
+	"width": 160,
+	"height": 164,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Streak", "parent": "root", "x": 0.59, "y": -82.01, "color": "911c91ff" },
+	{
+		"name": "chest",
+		"parent": "Streak",
+		"length": 28.35,
+		"rotation": 90.6,
+		"x": -0.45,
+		"y": 107.24,
+		"color": "911c91ff"
+	},
+	{ "name": "Number", "parent": "Streak", "x": -0.86, "y": 82.73, "color": "911c91ff" },
+	{
+		"name": "Load",
+		"parent": "Streak",
+		"length": 13.15,
+		"rotation": 89.41,
+		"x": -0.9,
+		"y": 11.91,
+		"color": "911c91ff"
+	},
+	{ "name": "Load2", "parent": "Load", "x": 24.67, "y": 0.66, "color": "911c91ff" },
+	{
+		"name": "Number2",
+		"parent": "Streak",
+		"length": 19.24,
+		"rotation": 1.18,
+		"x": -0.45,
+		"y": 82.26,
+		"color": "911c91ff"
+	},
+	{ "name": "Mask", "parent": "Streak", "x": -72.67, "y": 77.95, "color": "1c4390ff" },
+	{
+		"name": "Star",
+		"parent": "Streak",
+		"x": -2.86,
+		"y": 81.65,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"color": "12f116ff"
+	},
+	{
+		"name": "Star2",
+		"parent": "Streak",
+		"rotation": 90,
+		"x": -2.86,
+		"y": 81.65,
+		"scaleX": 0.5187,
+		"scaleY": 0.5187,
+		"color": "12f116ff"
+	},
+	{
+		"name": "Star3",
+		"parent": "Streak",
+		"rotation": -105,
+		"x": -2.86,
+		"y": 81.65,
+		"scaleX": 0.5325,
+		"scaleY": 0.5325,
+		"color": "12f116ff"
+	}
+],
+"slots": [
+	{ "name": "StreakBoder", "bone": "Streak", "attachment": "Streak/StreakBoder" },
+	{ "name": "Load", "bone": "Load", "attachment": "Streak/Load" },
+	{ "name": "chest", "bone": "chest", "attachment": "Streak/chest" },
+	{ "name": "Number", "bone": "Number2", "attachment": "Streak/Number" },
+	{ "name": "Mask", "bone": "Mask", "attachment": "Mask" },
+	{ "name": "Number2", "bone": "Number2", "attachment": "Streak/Number", "blend": "additive" },
+	{ "name": "Star", "bone": "Star" },
+	{ "name": "Star2", "bone": "Star2" },
+	{ "name": "Star3", "bone": "Star3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"chest": {
+				"Streak/chest": { "x": 22.27, "y": 0.41, "rotation": -90.6, "width": 69, "height": 59 }
+			},
+			"Load": {
+				"Streak/Load": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 4, 0.19, -9.31, 1, 1, 4, 0, 9.69, 1, 1, 5, -0.68, 9.28, 1, 1, 5, -0.48, -9.72, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 19,
+					"height": 24
+				}
+			},
+			"Mask": {
+				"Mask": {
+					"type": "clipping",
+					"end": "Number2",
+					"vertexCount": 4,
+					"vertices": [ 20.28, 62.18, 3.74, -66.98, -18.95, -66.98, -3.74, 61.11 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"Number": {
+				"Streak/Number": { "x": -0.15, "y": -0.25, "rotation": -1.18, "width": 86, "height": 66 }
+			},
+			"Number2": {
+				"Streak/Number": { "x": -0.15, "y": -0.25, "rotation": -1.18, "width": 86, "height": 66 }
+			},
+			"Star": {
+				"Fx/StarPoint": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 110, -109, -109, -109, -109, 110, 110, 110 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 219,
+					"height": 219
+				}
+			},
+			"Star2": {
+				"Fx/StarPoint": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 110, -109, -109, -109, -109, 110, 110, 110 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 219,
+					"height": 219
+				}
+			},
+			"Star3": {
+				"Fx/StarPoint": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 110, -109, -109, -109, -109, 110, 110, 110 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 219,
+					"height": 219
+				}
+			},
+			"StreakBoder": {
+				"Streak/StreakBoder": { "x": -1.59, "y": 75.01, "width": 160, "height": 160 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"Mask": {
+				"attachment": [
+					{ "time": 1.7, "name": null }
+				]
+			},
+			"Number2": {
+				"rgba": [
+					{ "time": 1.7, "color": "ffffff00" },
+					{ "time": 1.8, "color": "ffffff3c" },
+					{ "time": 1.9667, "color": "ffffff00" }
+				]
+			},
+			"Star": {
+				"rgba": [
+					{ "time": 1.7, "color": "ffffff00" },
+					{ "time": 1.8, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.9333, "color": "ffffffff" },
+					{ "time": 2.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.7, "name": "Fx/StarPoint" }
+				]
+			},
+			"Star2": {
+				"rgba": [
+					{ "time": 1.7, "color": "ffffff00" },
+					{ "time": 1.8, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.9667, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.7, "name": "Fx/StarPoint" }
+				]
+			},
+			"Star3": {
+				"rgba": [
+					{ "time": 1.7, "color": "ffffff00" },
+					{ "time": 1.8, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 2.5667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.7, "name": "Fx/StarPoint" }
+				]
+			}
+		},
+		"bones": {
+			"Load2": {
+				"translate": [
+					{},
+					{ "time": 1, "x": 18.74, "y": 0.19, "curve": "stepped" },
+					{ "time": 2.2, "x": 18.74, "y": 0.19 },
+					{ "time": 3.3333, "curve": "stepped" },
+					{ "time": 4.6667 }
+				]
+			},
+			"chest": {
+				"rotate": [
+					{ "time": 1.7667 },
+					{ "time": 1.8667, "value": -1.29 },
+					{ "time": 1.9667, "value": -0.16 },
+					{ "time": 2.0667, "value": 0.7 },
+					{ "time": 2.2333, "value": -0.44 },
+					{ "time": 2.3, "value": -2.12 },
+					{ "time": 2.3667, "value": -2.46 },
+					{ "time": 2.4333, "value": -1.18 },
+					{ "time": 2.5, "value": 1.38 },
+					{ "time": 2.5667, "value": 2.19 },
+					{ "time": 2.7 }
+				],
+				"translate": [
+					{ "time": 1.7667 },
+					{ "time": 1.8667, "y": 11.77 },
+					{ "time": 2.0667, "y": 14.35 },
+					{ "time": 2.2, "y": -0.29 },
+					{ "time": 2.2333 },
+					{ "time": 2.3667, "y": 3.45 },
+					{ "time": 2.5 }
+				],
+				"scale": [
+					{ "time": 1.7667 },
+					{ "time": 1.8, "x": 1.06, "y": 0.971 },
+					{ "time": 1.8667, "curve": "stepped" },
+					{ "time": 2.0667 },
+					{ "time": 2.2, "x": 1.085, "y": 0.96 },
+					{ "time": 2.2333, "x": 0.98, "y": 1.026 },
+					{ "time": 2.3667 }
+				]
+			},
+			"Number2": {
+				"scale": [
+					{
+						"time": 1.3333,
+						"curve": [ 1.367, 0.978, 1.4, 0.937, 1.367, 0.978, 1.4, 0.937 ]
+					},
+					{
+						"time": 1.4333,
+						"x": 0.934,
+						"y": 0.934,
+						"curve": [ 1.522, 0.925, 1.611, 0.925, 1.522, 0.925, 1.611, 0.925 ]
+					},
+					{
+						"time": 1.7,
+						"x": 0.925,
+						"y": 0.925,
+						"curve": [ 1.733, 0.925, 1.767, 1.059, 1.733, 0.925, 1.767, 1.059 ]
+					},
+					{
+						"time": 1.8,
+						"x": 1.059,
+						"y": 1.059,
+						"curve": [ 1.856, 1.059, 1.911, 0.984, 1.856, 1.059, 1.911, 0.984 ]
+					},
+					{
+						"time": 1.9667,
+						"x": 0.984,
+						"y": 0.984,
+						"curve": [ 2.011, 0.984, 2.056, 1, 2.011, 0.984, 2.056, 1 ]
+					},
+					{ "time": 2.1 }
+				]
+			},
+			"Star": {
+				"scale": [
+					{ "time": 1.7, "x": 0.642, "y": 0.642 },
+					{ "time": 1.8, "x": 1.377, "y": 1.377 },
+					{ "time": 2.2, "x": 1.573, "y": 1.573 }
+				]
+			},
+			"Star2": {
+				"scale": [
+					{ "time": 1.7, "x": 0.642, "y": 0.642 },
+					{ "time": 1.8, "x": 1.377, "y": 1.377 },
+					{ "time": 2.3333, "x": 1.573, "y": 1.573 }
+				]
+			},
+			"Star3": {
+				"scale": [
+					{ "time": 1.7, "x": 0.642, "y": 0.642 },
+					{ "time": 1.8, "x": 1.377, "y": 1.377 },
+					{ "time": 2.5667, "x": 1.501, "y": 1.501 }
+				]
+			}
+		}
+	}
+}
+}

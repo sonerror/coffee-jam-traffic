@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adab9cad7e07728448949940ee3d5814, type: 3}
+  m_Name: Level 6
+  m_EditorClassIdentifier: 
+  busMapHardness: 0
+  mapType: 0
+  busPosDatas:
+  - color: 3
+    type: 1
+    position: {x: 1.0032877, y: -0.13200003, z: -10.728288}
+    rotation: {x: -0, y: -0.000000104308114, z: -0, w: -1}
+    nodeIndexList: 
+    backTrackList: 07000000060000000800000009000000
+    weight: 0
+  - color: 0
+    type: 0
+    position: {x: 0.472, y: 0.6, z: -12.16}
+    rotation: {x: -0, y: -0.70710784, z: -0, w: -0.70710576}
+    nodeIndexList: 
+    backTrackList: 06000000070000000800000009000000
+    weight: 0
+  - color: 3
+    type: 2
+    position: {x: 4.06, y: 0.6, z: -13.29}
+    rotation: {x: -0, y: -0.70710754, z: -0, w: -0.7071061}
+    nodeIndexList: 
+    backTrackList: 03000000060000000700000008000000090000000400000005000000
+    weight: 0
+  - color: 3
+    type: 2
+    position: {x: -0.11116028, y: 0.6, z: -13.29338}
+    rotation: {x: -0, y: -0.70710754, z: -0, w: -0.7071061}
+    nodeIndexList: 02000000
+    backTrackList: 060000000700000008000000090000000400000005000000
+    weight: 1
+  - color: 2
+    type: 2
+    position: {x: -0.65162003, y: 0.6, z: -11.586599}
+    rotation: {x: -0, y: -0.000001117587, z: -0, w: -1}
+    nodeIndexList: 03000000
+    backTrackList: 0500000009000000
+    weight: 2
+  - color: 0
+    type: 2
+    position: {x: -0.6991999, y: -0.13200003, z: -10.488615}
+    rotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
+    nodeIndexList: 04000000
+    backTrackList: 
+    weight: 3
+  - color: 1
+    type: 1
+    position: {x: 0.98440003, y: -0.13200003, z: -13.540388}
+    rotation: {x: -0, y: -1, z: -0, w: 0.000000044703484}
+    nodeIndexList: 0100000007000000030000000800000008000000
+    backTrackList: 07000000060000000800000009000000
+    weight: 7
+  - color: 2
+    type: 0
+    position: {x: 0.9984074, y: -0.13200003, z: -12.134948}
+    rotation: {x: -0, y: -0.0000014603136, z: -0, w: 1}
+    nodeIndexList: 03000000010000000000000006000000
+    backTrackList: 06000000070000000800000009000000
+    weight: 7
+  - color: 0
+    type: 2
+    position: {x: -0.71384, y: -0.13200003, z: -13.848479}
+    rotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
+    nodeIndexList: 0600000003000000
+    backTrackList: 06000000070000000800000009000000
+    weight: 7
+  - color: 1
+    type: 2
+    position: {x: -1.2643145, y: -0.13200003, z: -12.182248}
+    rotation: {x: -0, y: -1, z: -0, w: 0.00000056624407}
+    nodeIndexList: 080000000300000004000000
+    backTrackList: 
+    weight: 8
+  tunnelDataPacks: []
+  totalMinionNum: 80
+  anchorPoints: []
+  busSlideAnchorPoints: []
+  grayBusIndexes: 
+  busSlideDataList: []
+  OverrideMinMinionCount: 0
+  MinMinioncount: 0

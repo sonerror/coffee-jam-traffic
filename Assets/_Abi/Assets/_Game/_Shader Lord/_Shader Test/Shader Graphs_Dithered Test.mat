@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Dithered Test
+  m_Shader: {fileID: -6465566751694194690, guid: b4334cda8fe5eee448bfed762e614f6e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_6ce6d315395c4502995ad2fad91cf885:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_027f7446dc3d4390b8637f76189ca231: 0.8
+    - Vector1_2f3da262db774b7ea8c90eb1c7b0fca9: 1.83
+    - Vector1_419d600082f34b078606dc4aea17617c: 1
+    - Vector1_4add7d42ec414c78b790670602a06c2c: 0.2
+    - Vector1_561890731d344b06957b84a34fab7c99: 0.409
+    - Vector1_63dec36079274a7795ab9c8cb261cc7f: 1
+    - Vector1_9d55b5204e2642b384fb0f098ba49c1e: 12
+    - Vector1_ce802a0602d34300857186085b5af94b: 272.09
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_4e175a0f3fe94e5f96fe8e59d5141d66: {r: 0.5687461, g: 0, b: 1, a: 0}
+    - Color_511f8f87271b4bcab31dfd65fac0d3a0: {r: 683.5601, g: 0, b: 0, a: 1}
+    - Color_7ad9c6bf3faf4507a98767dfe574b68d: {r: 6.262985, g: 170.89003, b: 0, a: 1}
+    - Color_81f23be6fd84404dadd28e9cb917855a: {r: 0, g: 0, b: 0, a: 1}
+    - Color_ecbab4363fd24d57a3eb62faab079dd9: {r: 0.543818, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3685483254111775422
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

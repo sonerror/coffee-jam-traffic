@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adab9cad7e07728448949940ee3d5814, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  busMapHardness: 0
+  busPosDatas:
+  - color: 2
+    type: 1
+    position: {x: -0.66999996, y: 0, z: -11.43}
+    rotation: {x: -0, y: 0.25881952, z: -0, w: 0.96592575}
+    nodeIndexList: 
+    backTrackList: 010000000200000003000000
+    weight: 0
+  - color: 3
+    type: 2
+    position: {x: 0.80999994, y: 0, z: -11.48}
+    rotation: {x: -0, y: -0.5, z: -0, w: 0.8660254}
+    nodeIndexList: 00000000
+    backTrackList: 0200000003000000
+    weight: 1
+  - color: 0
+    type: 0
+    position: {x: 0.64, y: 0, z: -12.73}
+    rotation: {x: -0, y: 0.2588186, z: -0, w: 0.965926}
+    nodeIndexList: 01000000
+    backTrackList: 03000000
+    weight: 2
+  - color: 1
+    type: 2
+    position: {x: -0.76, y: 0, z: -12.75}
+    rotation: {x: -0, y: 0.86602545, z: -0, w: 0.49999994}
+    nodeIndexList: 02000000
+    backTrackList: 
+    weight: 3
+  totalMinionNum: 30
+  anchorPoints: []

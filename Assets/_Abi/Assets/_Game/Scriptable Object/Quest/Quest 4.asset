@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78ef3d285ca6cb4f890ff06a0bfdf6f, type: 3}
+  m_Name: Quest 4
+  m_EditorClassIdentifier: 
+  questSubProgressList:
+  - questIdentify: 3
+    current: 0
+    goal: 1500
+    targetDescription: Collect 1500 coins through levels
+  rewardList:
+  - {fileID: 11400000, guid: 7e83e2a5d9ce52343bd6f0b726dbddd9, type: 2}
+  uniqueKey: quest444
+  questData:
+    isClaimed: 0
+    questProgressDatas:
+    - questIdentify: 3
+      current: 999999

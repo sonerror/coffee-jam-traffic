@@ -1,0 +1,67 @@
+{ "skeleton": { "images": "D:/TrafficJam/GiftBoxes/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "FullBody", "bone": "root", "attachment": "FullBody" },
+	{ "name": "Body", "bone": "root", "attachment": "Body" },
+	{ "name": "Lid1", "bone": "root", "attachment": "Lid1" },
+	{ "name": "Lid2", "bone": "root", "attachment": "Lid2" },
+	{ "name": "Lid3", "bone": "root", "attachment": "Lid3" }
+],
+"skins": {
+	"1": {
+		"FullBody": {
+			"FullBody": { "name": "1/FullBody", "x": 4.5, "y": 142.5, "width": 377, "height": 421 }
+		},
+		"Body": {
+			"Body": { "name": "1/Body", "x": 3, "y": 102.5, "width": 340, "height": 341 }
+		},
+		"Lid1": {
+			"Lid1": { "name": "1/Lid1", "x": 2.5, "y": 234.5, "width": 377, "height": 237 }
+		},
+		"Lid2": {
+			"Lid2": { "name": "1/Lid2", "x": 22.5, "y": 380, "width": 371, "height": 264 }
+		},
+		"Lid3": {
+			"Lid3": { "name": "1/Lid3", "x": 54, "y": 349.5, "width": 358, "height": 359 }
+		}
+	},
+	"2": {
+		"FullBody": {
+			"FullBody": { "name": "2/FullBody", "x": 2.5, "y": 142.5, "width": 377, "height": 421 }
+		},
+		"Body": {
+			"Body": { "name": "2/Body", "x": 3, "y": 102.5, "width": 340, "height": 341 }
+		},
+		"Lid1": {
+			"Lid1": { "name": "2/Lid1", "x": 2.5, "y": 234.5, "width": 377, "height": 237 }
+		},
+		"Lid2": {
+			"Lid2": { "name": "2/Lid2", "x": 22.5, "y": 380, "width": 371, "height": 264 }
+		},
+		"Lid3": {
+			"Lid3": { "name": "2/Lid3", "x": 54, "y": 349.5, "width": 358, "height": 359 }
+		}
+	},
+	"3": {
+		"FullBody": {
+			"FullBody": { "name": "3/FullBody", "x": 2.5, "y": 142.5, "width": 377, "height": 421 }
+		},
+		"Body": {
+			"Body": { "name": "3/Body", "x": 3, "y": 102.5, "width": 340, "height": 341 }
+		},
+		"Lid1": {
+			"Lid1": { "name": "3/Lid1", "x": 2.5, "y": 234.5, "width": 377, "height": 237 }
+		},
+		"Lid2": {
+			"Lid2": { "name": "3/Lid2", "x": 22.5, "y": 380, "width": 371, "height": 264 }
+		},
+		"Lid3": {
+			"Lid3": { "name": "3/Lid3", "x": 54, "y": 349.5, "width": 358, "height": 359 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,510 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adab9cad7e07728448949940ee3d5814, type: 3}
+  m_Name: Level_160_M
+  m_EditorClassIdentifier: 
+  busMapHardness: 2
+  isMultiLane: 0
+  busPosDatas:
+  - color: 2
+    type: 1
+    position: {x: -1.99, y: 0, z: -7.8100004}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 
+    backTrackList: 2b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000001f000000290000002d000000250000002700000021000000
+    weight: 0
+  - color: 2
+    type: 0
+    position: {x: -3.92, y: 0, z: -15.110001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 
+    backTrackList: 3a000000
+    weight: 0
+  - color: 0
+    type: 0
+    position: {x: -0.30999994, y: 0, z: -7.34}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    nodeIndexList: 
+    backTrackList: 1f000000290000002b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d00000025000000270000002100000018000000
+    weight: 0
+  - color: 2
+    type: 0
+    position: {x: -3.6, y: 0, z: -12.4800005}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 
+    backTrackList: 1d00000038000000390000003a0000003600000037000000
+    weight: 0
+  - color: 3
+    type: 0
+    position: {x: -3.15, y: 0, z: -7.920001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 
+    backTrackList: 110000002d0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002b0000001f000000290000002500000027000000
+    weight: 0
+  - color: 0
+    type: 1
+    position: {x: 3.4699998, y: 0, z: -11.08}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 
+    backTrackList: 30000000390000003200000035000000380000003a00000033000000340000003600000037000000310000002f0000001600000026000000230000002e000000
+    weight: 0
+  - color: 1
+    type: 0
+    position: {x: 3.65, y: 0, z: -12.59}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 
+    backTrackList: 30000000390000003200000035000000380000003a0000003300000034000000360000003700000013000000310000002f000000
+    weight: 0
+  - color: 0
+    type: 0
+    position: {x: -4, y: 0, z: -10.870001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 
+    backTrackList: 1900000038000000390000003a00000012000000
+    weight: 0
+  - color: 0
+    type: 0
+    position: {x: 3.81, y: 0, z: -8.790001}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 
+    backTrackList: 0f00000026000000390000003400000035000000380000003a0000003600000037000000230000002e000000300000003200000033000000310000002f00000017000000
+    weight: 0
+  - color: 2
+    type: 0
+    position: {x: -3.97, y: 0, z: -17.68}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    nodeIndexList: 
+    backTrackList: 0e0000001a00000038000000390000003a0000003600000037000000
+    weight: 0
+  - color: 1
+    type: 0
+    position: {x: 0.9200001, y: 0, z: -17.130001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 
+    backTrackList: 1c00000022000000370000002a0000002c0000003300000038000000390000003a00000034000000350000003600000031000000320000002000000028000000
+    weight: 0
+  - color: 3
+    type: 0
+    position: {x: 0.3800001, y: 0, z: -7.3600006}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    nodeIndexList: 
+    backTrackList: 1f000000290000002b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d00000025000000270000001800000021000000
+    weight: 0
+  - color: 1
+    type: 0
+    position: {x: 3.37, y: 0, z: -17.68}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    nodeIndexList: 
+    backTrackList: 3500000038000000390000003a0000001c00000022000000370000002a0000002c000000330000003400000036000000310000003200000020000000100000001b000000280000001e0000002400000015000000
+    weight: 0
+  - color: 0
+    type: 0
+    position: {x: -3.63, y: 0, z: -14.070001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 
+    backTrackList: 3a0000003600000037000000140000001d0000003800000039000000
+    weight: 0
+  - color: 1
+    type: 1
+    position: {x: -3.82, y: 0, z: -16.1}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 09000000
+    backTrackList: 1a00000038000000390000003a0000003600000037000000
+    weight: 1
+  - color: 3
+    type: 1
+    position: {x: 2.8000002, y: 0, z: -9.400001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 08000000
+    backTrackList: 26000000390000003400000035000000380000003a0000003600000037000000230000002e000000300000003200000033000000310000002f000000
+    weight: 1
+  - color: 1
+    type: 0
+    position: {x: 1.9900002, y: 0, z: -17.68}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    nodeIndexList: 0c000000
+    backTrackList: 3500000038000000390000003a0000001c00000022000000370000002a0000002c0000003300000034000000360000003100000032000000200000001b000000280000001e00000024000000
+    weight: 1
+  - color: 2
+    type: 1
+    position: {x: -2.43, y: 0, z: -8.960001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 04000000
+    backTrackList: 2d0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f000000
+    weight: 1
+  - color: 2
+    type: 1
+    position: {x: -3.04, y: 0, z: -11.490001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 07000000
+    backTrackList: 1900000038000000390000003a000000
+    weight: 1
+  - color: 2
+    type: 0
+    position: {x: 2.54, y: 0, z: -11.690001}
+    rotation: {x: 0, y: 0.9063079, z: 0, w: 0.42261827}
+    nodeIndexList: 06000000
+    backTrackList: 30000000390000003200000035000000380000003a00000033000000340000003600000037000000310000002f000000
+    weight: 1
+  - color: 0
+    type: 1
+    position: {x: -3.03, y: 0, z: -13.06}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 0d000000
+    backTrackList: 1d00000038000000390000003a0000003600000037000000
+    weight: 1
+  - color: 3
+    type: 1
+    position: {x: 4.09, y: 0, z: -16.460001}
+    rotation: {x: -0, y: 1, z: -0, w: 0}
+    nodeIndexList: 0c000000
+    backTrackList: 2c0000003300000038000000390000003a000000340000003500000036000000370000003100000032000000240000002a00000028000000
+    weight: 1
+  - color: 0
+    type: 1
+    position: {x: 2.21, y: 0, z: -10.410001}
+    rotation: {x: 0, y: 0.9063079, z: 0, w: 0.42261827}
+    nodeIndexList: 05000000
+    backTrackList: 26000000390000003400000035000000380000003a000000360000003700000031000000330000002f000000230000002e0000003000000032000000
+    weight: 1
+  - color: 3
+    type: 0
+    position: {x: 3.3600001, y: 0, z: -9.940001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 08000000
+    backTrackList: 37000000310000003500000038000000390000003a0000003300000034000000360000002f00000023000000260000002e0000003000000032000000
+    weight: 1
+  - color: 3
+    type: 1
+    position: {x: -1.35, y: 0, z: -8.35}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 0b00000002000000
+    backTrackList: 2b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f00000021000000290000002d00000027000000
+    weight: 2
+  - color: 2
+    type: 1
+    position: {x: -1.81, y: 0, z: -12.52}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 0700000012000000
+    backTrackList: 38000000390000003a000000
+    weight: 2
+  - color: 1
+    type: 1
+    position: {x: -2.97, y: 0, z: -15.080001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 090000000e000000
+    backTrackList: 38000000390000003a0000003600000037000000
+    weight: 2
+  - color: 0
+    type: 1
+    position: {x: 1.8600001, y: 0, z: -16.61}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 0c00000010000000
+    backTrackList: 3500000038000000390000003a000000280000002c0000003300000034000000360000003700000031000000320000001e000000240000002a000000
+    weight: 2
+  - color: 3
+    type: 0
+    position: {x: -1, y: 0, z: -17.68}
+    rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    nodeIndexList: 0c000000100000000a000000
+    backTrackList: 22000000370000002a0000002c0000003300000038000000390000003a000000340000003500000036000000310000003200000020000000
+    weight: 3
+  - color: 3
+    type: 1
+    position: {x: -2.45, y: 0, z: -14.18}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 0300000014000000
+    backTrackList: 38000000390000003a0000003600000037000000
+    weight: 3
+  - color: 4
+    type: 2
+    position: {x: 3.1399999, y: 0, z: -15.830001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 100000001b000000
+    backTrackList: 2c0000003300000038000000390000003a000000340000003500000036000000370000003100000032000000240000002a00000028000000
+    weight: 3
+  - color: 0
+    type: 0
+    position: {x: 1.6700001, y: 0, z: -7.0600004}
+    rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    nodeIndexList: 0400000000000000020000000b000000
+    backTrackList: 290000002b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d0000002500000027000000
+    weight: 4
+  - color: 0
+    type: 2
+    position: {x: 0.46000004, y: 0, z: -16.470001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 1c000000
+    backTrackList: 3500000038000000390000003a00000022000000370000002a0000002c0000003300000034000000360000003100000032000000
+    weight: 4
+  - color: 1
+    type: 1
+    position: {x: 0.16000009, y: 0, z: -8.690001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 000000001800000002000000
+    backTrackList: 290000002b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d00000027000000
+    weight: 4
+  - color: 8
+    type: 1
+    position: {x: -1.13, y: 0, z: -16.45}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 0a0000001c00000020000000
+    backTrackList: 37000000
+    weight: 5
+  - color: 1
+    type: 2
+    position: {x: 1.4099998, y: 0, z: -11.300001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 080000000f0000001700000016000000
+    backTrackList: 26000000390000003400000035000000380000003a00000036000000370000002e000000300000003200000033000000310000002f000000
+    weight: 5
+  - color: 10
+    type: 1
+    position: {x: 1.6999998, y: 0, z: -15.52}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 0c000000150000001e000000
+    backTrackList: 2c0000003300000038000000390000003a0000003400000035000000360000003700000031000000320000002a00000028000000
+    weight: 5
+  - color: 2
+    type: 0
+    position: {x: 1.2199998, y: 0, z: -8.070001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 1f000000
+    backTrackList: 290000002b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d000000
+    weight: 5
+  - color: 1
+    type: 1
+    position: {x: 0.18000007, y: 0, z: -12.700001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 080000000f0000001600000023000000
+    backTrackList: 390000003400000035000000380000003a0000003600000037000000
+    weight: 6
+  - color: 1
+    type: 2
+    position: {x: -1.09, y: 0, z: -9.35}
+    rotation: {x: 0, y: 0.3420201, z: 0, w: 0.9396927}
+    nodeIndexList: 1f0000000b0000000200000021000000
+    backTrackList: 2b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d000000
+    weight: 7
+  - color: 3
+    type: 0
+    position: {x: 2.81, y: 0, z: -14.93}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 0a0000001b00000024000000
+    backTrackList: 2c0000003300000038000000390000003a000000340000003500000036000000370000003100000032000000
+    weight: 7
+  - color: 5
+    type: 2
+    position: {x: -0.4000001, y: 0, z: -9.940001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 1f0000002500000021000000
+    backTrackList: 2b0000003a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f0000002d000000
+    weight: 8
+  - color: 0
+    type: 1
+    position: {x: 2.21, y: 0, z: -14.370001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 1c0000002000000024000000
+    backTrackList: 2c0000003300000038000000390000003a000000340000003500000036000000370000003100000032000000
+    weight: 9
+  - color: 7
+    type: 1
+    position: {x: 0.53999996, y: 0, z: -10.51}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 0400000000000000180000002700000029000000
+    backTrackList: 3a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f000000
+    weight: 10
+  - color: 3
+    type: 0
+    position: {x: 0.77, y: 0, z: -14.140001}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 150000001e00000028000000240000002a000000
+    backTrackList: 3300000038000000390000003a000000340000003500000036000000370000003100000032000000
+    weight: 11
+  - color: 7
+    type: 0
+    position: {x: 0.029999971, y: 0, z: -11.150001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 04000000110000002700000029000000
+    backTrackList: 3a0000002e000000300000003900000032000000350000003800000033000000340000003600000037000000310000002f000000
+    weight: 11
+  - color: 7
+    type: 2
+    position: {x: 2.2800002, y: 0, z: -12.4800005}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 0400000000000000110000001800000027000000290000002b0000002d00000023000000
+    backTrackList: 30000000390000003200000035000000380000003a00000033000000340000003600000037000000310000002f000000
+    weight: 19
+  - color: 8
+    type: 1
+    position: {x: 1.0900002, y: 0, z: -12.990001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 08000000170000000500000016000000130000002e000000
+    backTrackList: 39000000370000003100000035000000380000003a000000330000003400000036000000
+    weight: 22
+  - color: 10
+    type: 1
+    position: {x: 1.79, y: 0, z: -13.570001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 0500000006000000130000002e000000
+    backTrackList: 390000003200000035000000380000003a00000033000000340000003600000037000000
+    weight: 22
+  - color: 8
+    type: 1
+    position: {x: -0.25, y: 0, z: -14.77}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 08000000170000000500000016000000130000002e0000002f0000002c000000
+    backTrackList: 3500000038000000390000003a00000033000000340000003600000037000000
+    weight: 35
+  - color: 5
+    type: 1
+    position: {x: 0.4000001, y: 0, z: -15.300001}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 0500000006000000130000002e000000300000002c000000
+    backTrackList: 3500000038000000390000003a00000033000000340000003600000037000000
+    weight: 35
+  - color: 7
+    type: 1
+    position: {x: -0.63999987, y: 0, z: -13.550001}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 0c000000150000001e00000024000000320000002c00000031000000
+    backTrackList: 38000000390000003a00000034000000350000003600000037000000
+    weight: 38
+  - color: 4
+    type: 2
+    position: {x: -1.36, y: 0, z: -14.67}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 080000000f0000001700000016000000230000002600000033000000
+    backTrackList: 3500000038000000390000003a0000003600000037000000
+    weight: 40
+  - color: 1
+    type: 0
+    position: {x: -1.96, y: 0, z: -13.540001}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 0c000000100000001b00000020000000320000003100000034000000
+    backTrackList: 38000000390000003a000000
+    weight: 41
+  - color: 6
+    type: 1
+    position: {x: -0.68000007, y: 0, z: -15.800001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    nodeIndexList: 03000000140000000d0000001a0000001d00000034000000
+    backTrackList: 37000000
+    weight: 48
+  - color: 7
+    type: 1
+    position: {x: -2.11, y: 0, z: -17.150002}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    nodeIndexList: 080000001700000005000000130000002e0000002f0000002c000000310000003600000022000000
+    backTrackList: 
+    weight: 50
+  - color: 8
+    type: 1
+    position: {x: -0.5, y: 0, z: -12.140001}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 090000000e0000001a0000001d000000350000003300000019000000
+    backTrackList: 390000003a000000
+    weight: 52
+  - color: 6
+    type: 2
+    position: {x: -1.5699999, y: 0, z: -11.130001}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    nodeIndexList: 150000001e000000280000002a000000300000002f0000002600000038000000
+    backTrackList: 
+    weight: 53
+  - color: 8
+    type: 2
+    position: {x: 1.3699999, y: 0, z: -9.52}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    nodeIndexList: 0e000000010000001a0000000d0000001d0000003500000019000000380000002d0000002b000000
+    backTrackList: 
+    weight: 54
+  tunnelDataPacks:
+  - datas:
+    - busType: 1
+      color: 5
+      isTaken: 0
+    - busType: 0
+      color: 7
+      isTaken: 0
+    - busType: 2
+      color: 10
+      isTaken: 0
+    - busType: 0
+      color: 10
+      isTaken: 0
+    position: {x: -2.81, y: 0, z: -16.36}
+    rotation: {x: -0, y: 0.3420201, z: -0, w: 0.9396927}
+    lockBusIndex: 52
+    blockBusIndexList: 3500000036000000
+  - datas:
+    - busType: 2
+      color: 1
+      isTaken: 0
+    - busType: 1
+      color: 5
+      isTaken: 0
+    - busType: 1
+      color: 5
+      isTaken: 0
+    - busType: 1
+      color: 8
+      isTaken: 0
+    position: {x: 2.8000002, y: 0, z: -7.76}
+    rotation: {x: -0, y: -0.9396926, z: -0, w: 0.34202018}
+    lockBusIndex: 58
+    blockBusIndexList: 
+  - datas:
+    - busType: 0
+      color: 2
+      isTaken: 0
+    - busType: 1
+      color: 7
+      isTaken: 0
+    - busType: 2
+      color: 8
+      isTaken: 0
+    - busType: 1
+      color: 7
+      isTaken: 0
+    position: {x: 4, y: 0, z: -14.030001}
+    rotation: {x: -0, y: -0.42261827, z: -0, w: 0.9063079}
+    lockBusIndex: 46
+    blockBusIndexList: 3000000037000000310000002f00000032000000
+  - datas:
+    - busType: 1
+      color: 0
+      isTaken: 0
+    - busType: 1
+      color: 7
+      isTaken: 0
+    - busType: 2
+      color: 2
+      isTaken: 0
+    - busType: 2
+      color: 4
+      isTaken: 0
+    position: {x: -3.49, y: 0, z: -9.51}
+    rotation: {x: -0, y: 0.9063079, z: -0, w: 0.42261827}
+    lockBusIndex: 57
+    blockBusIndexList: 
+  totalMinionNum: 456
+  anchorPoints:
+  - busIndex: 48
+    anchorPoint: 28
+  - busIndex: 50
+    anchorPoint: 42
+  - busIndex: 54
+    anchorPoint: 55
+  busSlideAnchorPoints: []
+  grayBusIndexes: 
+  busSlideDataList: []

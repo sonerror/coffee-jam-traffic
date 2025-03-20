@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adab9cad7e07728448949940ee3d5814, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  busMapHardness: 0
+  mapType: 0
+  busPosDatas:
+  - color: 3
+    type: 1
+    position: {x: -0.5072075, y: 0.65400004, z: -11.6654005}
+    rotation: {x: -0, y: -1, z: -0, w: 0.0000001490116}
+    nodeIndexList: 
+    backTrackList: 010000000200000003000000
+    weight: 0
+  - color: 1
+    type: 2
+    position: {x: -0.12620777, y: 0, z: -11.178225}
+    rotation: {x: -0, y: -0.7071076, z: -0, w: -0.707106}
+    nodeIndexList: 00000000
+    backTrackList: 
+    weight: 1
+  - color: 0
+    type: 0
+    position: {x: -0.69440794, y: 0, z: -12.3542}
+    rotation: {x: -0, y: -0.7071054, z: -0, w: 0.70710826}
+    nodeIndexList: 00000000
+    backTrackList: 
+    weight: 1
+  - color: 2
+    type: 0
+    position: {x: 0.43599212, y: 0, z: -12.353001}
+    rotation: {x: -0, y: 1, z: -0, w: 0.0000014603138}
+    nodeIndexList: 00000000
+    backTrackList: 
+    weight: 1
+  tunnelDataPacks: []
+  totalMinionNum: 24
+  anchorPoints: []
+  busSlideAnchorPoints: []
+  grayBusIndexes: 
+  busSlideDataList: []
