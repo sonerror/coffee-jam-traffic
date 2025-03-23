@@ -16,4 +16,9 @@ public class MainMenu : UICanvas
     {
         tmpLevel.text = $"{"Level " + (DataManager.Ins.playerData.levelCurrent + 1)}"; ;
     }
+    public void ButtonPlay()
+    {
+        UIManager.Ins.CloseAll();
+        UIManager.Ins.OpenUI<UIGamePlay>();
+    }
 }
