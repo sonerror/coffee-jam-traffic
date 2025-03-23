@@ -1,7 +1,8 @@
 using UnityEngine;
-
+using TMPro;
 public class MainMenu : UICanvas
 {
+    [SerializeField] private TextMeshProUGUI tmpLevel;
     public override void Setup()
     {
         base.Setup();
@@ -9,5 +10,10 @@ public class MainMenu : UICanvas
     public override void Open()
     {
         base.Open();
+        SetUIMainMenu();
+    }
+    private void SetUIMainMenu()
+    {
+        tmpLevel.text = $"{"Level " + (DataManager.Ins.playerData.levelCurrent + 1)}"; ;
     }
 }
