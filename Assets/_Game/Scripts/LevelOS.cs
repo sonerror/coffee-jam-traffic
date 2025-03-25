@@ -1,32 +1,19 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "Level", menuName = "ScriptableObjects/Data/Level", order = 1)]
+[CreateAssetMenu(fileName = "LevelOS", menuName = "ScriptableObjects/Data/LevelOS", order = 1)]
 public class LevelOS : ScriptableObject
 {
-    public int idLevel;
-    public List<LevelData> levelDatas = new List<LevelData>();
+    public List<LevelData> levelOS;
+    public LevelData GetLevelByID(int _id)
+    {
+        return levelOS.Find(id => id.levelID == _id);
+    }
+  
 }
 [System.Serializable]
 public class LevelData
 {
-    public int id;
-    public BoxType boxType;
-    public Vector3 tr;
-    public Vector3 rotate;
-    public LevelData(int id, BoxType boxType, Vector3 tr, Vector3 rotate)
-    {
-        this.id = id;
-        this.boxType = boxType;
-        this.tr = tr;
-        this.rotate = rotate;
-    }
-}
-
-[System.Serializable]
-public enum BoxType
-{
-    box4,
-    box6,
-    box10
+    public int levelID;
+    public Level level;
 }

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733879155389443527}
+  - component: {fileID: 1886445582620024911}
   m_Layer: 0
   m_Name: Box10
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 8311436832667671919}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1886445582620024911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877262165656924925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010e96930f0ef89479e2d9132bfccf15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolType: 4
 --- !u!1001 &8417965192641280644
 PrefabInstance:
   m_ObjectHideFlags: 0

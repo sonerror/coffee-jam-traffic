@@ -20,5 +20,6 @@ public class MainMenu : UICanvas
     {
         UIManager.Ins.CloseAll();
         UIManager.Ins.OpenUI<UIGamePlay>();
+        LevelManager.Ins.OnLoadLevel(DataManager.Ins.playerData.levelCurrent);
     }
 }
