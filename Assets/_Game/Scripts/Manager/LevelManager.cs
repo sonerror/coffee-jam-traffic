@@ -12,7 +12,6 @@ public class LevelManager : Singleton<LevelManager>
         for (int i = 0; i < currentLevel.boxData.Count; i++)
         {
             Box newBox = SimplePool.Spawn<Box>((PoolType)currentLevel.boxData[i].boxType, currentLevel.boxData[i].tr, Quaternion.identity);
-           // newBox.transform.parent = null;
             newBox.transform.rotation = Quaternion.Euler(currentLevel.boxData[i].rotate);
         }
     }

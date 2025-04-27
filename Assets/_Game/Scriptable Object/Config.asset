@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc79a11aa5df204f89fd09b8e4dd158, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  closeDistanceBetweenBuses: 0.34
+  bounceBackDistance: 0.134
+  busMoveSpeed: 16
+  minionMoveSpeed: 9
+  minionQueueSegmentMoveTime: 0.12
+  busHeight: 0.8202168
+  vanHeight: 0.7333872
+  carHeight: 0.56533635
+  delayBetweenBusLeave: 0.21
+  averageBusParkPathLength: 4
+  averageBusLeavePathLength: 2
+  delayBetweenSwapCarBooster: 0.032
+  delayBetweenSwapMinionBooster: 0.024
+  goldPerWin: 10
+  goldPerRevive: 200
+  goldPerVip: 1
+  treasureHomeDisplaySize: {x: 0.72, y: 0.72, z: 0.72}
+  treasureHomeShowSize: {x: 1.42, y: 1.42, z: 1.42}
